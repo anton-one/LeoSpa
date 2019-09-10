@@ -1,0 +1,47 @@
+.services {
+
+	.services__item {
+		flex-basis: 10%;
+		position: relative;
+	}
+
+	.services__img {
+		display: block;
+		width: 100%;
+	}
+
+	.services__item:hover .services__item-hover {
+		opacity: 1;
+		visibility: visible;
+	}
+
+	.services__item-hover {
+		background-color: rgba(255, 129, 126, 0.9);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		text-align: center;
+		transition: all 300ms ease-in-out;
+		opacity: 0;
+		visibility: hidden;
+		height: 100%;
+		width: 100%;
+
+		.services__icons {
+			width: 47px;
+			margin: 0 auto 25px;
+		}
+	}
+
+	.services__title {
+		color: #ffffff;
+		font-family: 'Rufina';
+		font-size: 22px;
+		line-height: 1;
+		font-weight: 700;
+	}
+}

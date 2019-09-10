@@ -1,0 +1,91 @@
+.reviews {
+	padding: 140px 0;
+	background-color: #fff9f8;
+
+
+	.reviews__item {
+		text-align: center;
+		margin-bottom: 60px;
+
+		.reviews__icon {
+			width: 59px;
+			margin: 0 auto 50px;
+		}
+
+		.reviews__text {
+			max-width: 965px;
+			margin: 0 auto;
+			color: #263a41;
+			font-family: 'Rufina';
+			font-size: 18px;
+			line-height: 1.6;
+			font-weight: 400;
+			margin-bottom: 50px;
+		}
+
+		.reviews__img {
+			border-radius: 50%;
+			width: 76px;
+			margin: 0 auto 30px;
+		}
+
+		.reviews__name {
+			color: #263a41;
+			font-family: 'Rufina';
+			font-size: 22px;
+			line-height: 1;
+			font-weight: 400;
+
+			span {
+				font-family: 'Roboto';
+				font-size: 15px;
+				font-weight: 300;
+			}
+		}
+	}
+
+
+	/* Стили точек Слик слайдера */
+	.slick-dots {
+		margin: 0;
+		padding: 0 0 10px;
+		list-style: none;
+		position: absolute;
+		bottom: 20px;
+		left: 50%;
+		transform: translateX(-50%);
+		z-index: 2;
+	}
+
+	.slick-dots li {
+		margin: 0 5px;
+		display: inline-block;
+	}
+
+	.slick-dots button {
+		height: 8px;
+		width: 8px;
+		padding: 0;
+		border: 0;
+		background-color: #ffc3c2;
+		border-radius: 50%;
+		opacity: .5;
+		cursor: pointer;
+
+		font-size: 0;
+		color: transparent;
+	}
+
+	.slick-dots button:focus {
+		outline: 0;
+	}
+
+	.slick-dots .slick-active button {
+		opacity: 1;
+		background-color: #ff817e;
+	}
+
+	/* Стили точек Слик слайдера */
+
+
+}
