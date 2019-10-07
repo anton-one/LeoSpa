@@ -1,0 +1,119 @@
+.record {
+
+	.record__inner {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.record__img {
+		flex-basis: 40%;
+	}
+
+	.record__forms {
+		flex-basis: 60%;
+		padding-left: 5.5%;
+		background-color: #fff9f8;
+	}
+
+	.record__form {
+		top: 50%;
+		transform: translateY(-50%);
+		max-width: 650px;
+		position: relative;
+	}
+
+	.form__field {
+		position: relative;
+		width: 100%;
+
+		input {
+			width: 49%;
+			background-color: transparent;
+			border: none;
+			border-bottom: 1px solid #d4d3d3;
+			color: #999;
+			display: block;
+			font-size: 12px;
+			font-weight: 400;
+			padding: 10px 0;
+			margin-bottom: 30px;
+			text-transform: uppercase;
+
+			&::placeholder {
+				color: #999;
+			}
+		}
+
+
+		.select__field {
+			width: 49%;
+
+			select {
+				text-transform: uppercase;
+				background-color: transparent;
+				border: none;
+				border-bottom: 1px solid #d4d3d3;
+				color: #999;
+				display: block;
+				font-size: 12px;
+				font-weight: 400;
+				padding: 10px 0;
+				margin-bottom: 30px;
+				width: 100%;
+			}
+		}
+
+		textarea {
+			text-transform: uppercase;
+			resize: none;
+			background-color: transparent;
+			border: none;
+			border-bottom: 1px solid #d4d3d3;
+			color: #999;
+			display: block;
+			font-size: 12px;
+			font-weight: 400;
+			padding: 10px 0;
+			margin-bottom: 30px;
+			width: 100%;
+
+			&::placeholder {
+				color: #999;
+			}
+		}
+	}
+
+	.record__btn {
+		display: inline-block;
+		border-radius: 25px;
+		background-color: #ff817e;
+		padding: 17px 30px;
+		border: 1px solid #ff817e;
+		text-align: center;
+		text-transform: uppercase;
+		color: #ffffff;
+		font-family: 'Roboto';
+		font-size: 14px;
+		line-height: 1;
+		letter-spacing: 2px;
+		font-weight: 600;
+		transition: linear .3s;
+
+		&:hover {
+			background-color: #fff;
+			color: #ff817e;
+		}
+	}
+
+	.half__width {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+
+
+
+
+
+}
